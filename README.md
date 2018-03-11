@@ -32,7 +32,7 @@ Para iniciar una página web, tenemos el elemento `<html>…</html>`. Dentro suy
 </html>
 ```
 
-A esto deberíamos anteponer un `<!DOCTYPE html>`, que es una instrucción para que el navegador web "sepa" en qué versión de HTML está escrita la página (no es considerada un elemento HTML). 
+A esto deberíamos anteponer un `<!DOCTYPE html>`, que es una instrucción para que el navegador web "sepa" en qué versión de HTML está escrita la página.
 
 ```
 <!DOCTYPE html>
