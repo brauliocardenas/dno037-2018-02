@@ -1,6 +1,6 @@
 # Clase 2 → Miércoles 14 de marzo
 
-### HTML 
+### HTML5 
 
 **Algunos apuntes iniciales:**  
 
