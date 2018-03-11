@@ -10,20 +10,22 @@
 
 - HTML es un lenguaje descriptivo que ofrece lo necesario para estructurar el contenido de las páginas web.
 
-- HTML5 es su versión más reciente, en ella se incorporan elementos semánticos, atributos y comportamientos propuestos con atención a los actuales usos de la Web.
+- HTML5 es su versión más reciente, en ella se incorporan elementos semánticos, atributos y comportamientos que atienden a los actuales usos de la Web.
 
-#### Elementos
+#### Elemento HTML
 
-**Los elementos son el bloque constructivo más básico del HTML**. Un elemento HTML generalmente tiene una `<etiqueta de inicio>` y `</una etiqueta de cierre>`, entre las etiquetas hay un contenido, y dentro de la etiqueta de inicio pueden haber atributos.
+**Los elementos son el bloque constructivo más básico del HTML**. Un elemento HTML generalmente tiene una `<etiqueta de inicio>` y `</una etiqueta de cierre>`, entre las etiquetas hay un contenido, y dentro de la etiqueta de inicio pueden haber atributos. Hay ciertos elementos que no tienen contenido, y son solo `<una etiqueta>` que puede tener atributos.
 
-En línea, pueden encontrar distintas referencias sobre los elementos HTML disponibles. Algunos ejemplos:  
+En línea, pueden encontrar distintas referencias sobre los elementos HTML existentes. Algunos ejemplos:  
 
 - [Lista de Elementos HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos)
 - [HTML5 Cheat Sheet](https://websitesetup.org/HTML5-cheat-sheet.pdf)
 - [Referencias de elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Elemento)
 - [Element Index | HTML5 Doctor](http://html5doctor.com/element-index/)
 
-Para iniciar una página web, tenemos el elemento `<html>…</html>`. Dentro suyo deberíamos encontrar 2 elementos: Uno es `<head>…</head>`, el cual debe incluir información general acerca del documento, incluyendo su título, metadatos, enlaces a scripts y estilos. Otro elemento es `<body>…</body>`, el cual debe incluir el contenido del documento.
+Si queremos enfrentar el aprendizaje de un lenguaje de un modo natural, no tenemos que demorarnos mucho tiempo intentando memorizar cada elemento antes de escribir cualquier cosa. Además, recuerden que un editor de código les entregará pistas en la medida que vayan escribiendo, y los colores en el código servirán de indicación para sus aciertos o errores.
+
+Iniciamos ahora mismo la "redacción" de una página web desde cero; lo primero será el elemento `<html>…</html>`. Dentro suyo deberíamos tener 2 elementos: Uno es `<head>…</head>`, el cual debe incluir información general acerca del documento, incluyendo su título, metadatos, enlaces a scripts y estilos. Otro elemento es `<body>…</body>`, el cual debe incluir el contenido del documento.
 
 ```
 <html>
@@ -42,7 +44,9 @@ A esto deberíamos anteponer un `<!DOCTYPE html>`, que es una instrucción para 
 </html>
 ```
 
-Esa es la estructura con la que deberíamos iniciar cada página. **Lo que sigue es preocuparse de incluir información general acerca del documento, y esto se hace dentro del `<head>…</head>`**, donde incluiremos algunos elementos que, a continuación, se presentan con un `<!--comentario-->`:
+Y esa es la estructura con la que deberíamos iniciar cada página web. 
+
+**Lo que sigue es preocuparnos de incluir información general acerca del documento, y esto se hace dentro del elemento `<head>…</head>`**, donde incluiremos los elementos que, a continuación, se presentan con un `<!--comentario-->`:
 
 ```
 <head>
@@ -74,9 +78,9 @@ Para mayor información respecto de lo recién presentado, favor revisar:
 - [Mega Tags](https://megatags.co/)
 - [How to Add a Favicon to your Site](https://www.w3.org/2005/10/howto-favicon)
 
-Ahora podemos seguir avanzando, y preocuparnos de los contenidos del documento. **A continuación nos preocuparemos de lo que va dentro del `<body>…</body>`**.
+Podemos seguir avanzando, y preocuparnos de los contenidos del documento. **A continuación nos preocuparemos de lo que va dentro del `<body>…</body>`**.
 
-En este caso, la lista de posibles elementos es más significativa. Más nos conviene un listado que las agrupe:
+En este caso, la lista de posibles elementos es más amplia. Por eso vamos a explorar elementos en grupos:
 
 - Partes significativas: …
 - Encabezados: …
