@@ -14,7 +14,7 @@
 
 #### Elementos
 
-**Los elementos son el bloque constructivo más básico de HTML**. Un elemento HTML generalmente tiene una `<etiqueta de inicio>` y `</una etiqueta de cierre>`, entre las etiquetas hay un contenido, y dentro de la etiqueta de inicio pueden haber atributos.
+**Los elementos son el bloque constructivo más básico del HTML**. Un elemento HTML generalmente tiene una `<etiqueta de inicio>` y `</una etiqueta de cierre>`, entre las etiquetas hay un contenido, y dentro de la etiqueta de inicio pueden haber atributos.
 
 En línea, pueden encontrar distintas referencias sobre los elementos HTML disponibles. Algunos ejemplos:  
 
