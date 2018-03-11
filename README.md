@@ -23,7 +23,7 @@ En línea, pueden encontrar distintas referencias sobre los elementos HTML dispo
 - [Referencias de elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Elemento)
 - [Element Index | HTML5 Doctor](http://html5doctor.com/element-index/)
 
-Para iniciar una página web, tenemos el elemento `<html>…</html>` representa la raiz de un documento HTML. Dentro suyo deberíamos encontrar 2 elementos: uno es `<head>…</head>`, el cual debe incluir información general acerca del documento, incluyendo su título, metadatos, enlaces a scripts y estilos. Otro elemento es `<body>…</body>`, el cual debe incluir el contenido del documento.
+Para iniciar una página web, tenemos el elemento `<html>…</html>`. Dentro suyo deberíamos encontrar 2 elementos: Uno es `<head>…</head>`, el cual debe incluir información general acerca del documento, incluyendo su título, metadatos, enlaces a scripts y estilos. Otro elemento es `<body>…</body>`, el cual debe incluir el contenido del documento.
 
 ```
 <html>
