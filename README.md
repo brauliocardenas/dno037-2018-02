@@ -10,7 +10,7 @@
 
 - HTML es un lenguaje descriptivo que ofrece lo necesario para estructurar el contenido de las páginas web.
 
-- HTML5 es su versión más reciente, en ella se incorporan nuevos elementos semánticos, atributos y comportamientos.
+- HTML5 es su versión más reciente, en ella se incorporan elementos semánticos, atributos y comportamientos propuestos con atención a los actuales usos de la Web.
 
 #### Elementos
 
@@ -41,6 +41,50 @@ A esto deberíamos anteponer un `<!DOCTYPE html>`, que es una instrucción para 
   <body>…</body>
 </html>
 ```
+
+Esa es la estructura con la que deberíamos iniciar cada página. **Lo que sigue es preocuparse de incluir información general acerca del documento, y esto se hace dentro del `<head>…</head>`**, donde incluiremos algunos elementos que, a continuación, se presentan con un `<!--comentario-->`:
+
+```
+<head>
+  <!--Lo primero es indicar la codificación de caracteres utilizada-->
+  <meta charset="utf-8">
+  <!-- Luego los demás elementos meta, con sus atributos name y content -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Nunca olvidar el título que se desplegará en la peseña del navegador--> 
+  <title>Hola mundo!</title>
+  <!-- Podemos vincular un favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- Podemos vincular una o varias hojas de estilo CSS -->
+  <link rel="stylesheet" href="estilo.css">
+  <!-- Podemos incluir, directamente, algunas reglas de estilo CSS -->
+  <style>…</style>
+  <!-- Podemos vincular, aquí o en otra parte, uno o varios scripts de JS--> 
+  <script src="javascript.js"></script>
+  <!-- Podemos incluir, aquí o en otra parte, y directamente, algún script de JS--> 
+  <script>…</script>  
+</head>
+```
+
+Para mayor información respecto de lo recién presentado, favor revisar:
+- [Meta Charset: como y por qué utilizarlo siempre](https://cybmeta.com/meta-charset-como-y-por-que-utilizarlo-siempre)
+- [HTML \<meta> name Attribute](https://www.w3schools.com/tags/att_meta_name.asp)
+- [\<meta> en HTML | MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/meta)
+- [\<link> en HTML | MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link);
+- [\<script> en HTML | MDN](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/script)
+- [Mega Tags](https://megatags.co/)
+- [How to Add a Favicon to your Site](https://www.w3.org/2005/10/howto-favicon)
+
+Ahora podemos seguir avanzando, y preocuparnos de los contenidos del documento. **A continuación nos preocuparemos de lo que va dentro del `<body>…</body>`**.
+
+En este caso, la lista de posibles elementos es más significativa. Más nos conviene un listado que las agrupe:
+
+- Partes significativas: …
+- Encabezados: …
+- Párrafos: …
+- Multimedia: …
+- Vínculos: …
+- Divisiones y lapsus: …
+- Otros: …
 
 - - - - 
 
