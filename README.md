@@ -84,4 +84,4 @@ En este caso, la lista de posibles elementos es más amplia. Por lo que vamos a 
 
 - - - - - 
 
-[Clase anterior](https://github.com/profesorfaco/dno037-2018-01) | Próxima clase
+[Clase anterior](https://github.com/profesorfaco/dno037-2018-01) | [Próxima clase](https://github.com/profesorfaco/dno037-2018-03)
