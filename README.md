@@ -82,6 +82,25 @@ Podemos seguir avanzando, y **preocuparnos de los contenidos del documento, de l
 
 En este caso, la lista de posibles elementos es más amplia. Por lo que vamos a trabajar directamente en el documento HTML, primero definiendo una estructura de modo semántico, luego jerarquías de la misma manera, para después agregar vínculos, imágenes y otros elementos multimedia. Todo esto lo haremos sin hacer ajustes de estilo, para tener claridad sobre proporciones y comportamientos que se ofrecen por defecto.
 
+En el documento a trabajar, podremos revisar algunos de los siguientes elementos:
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Document metadata**](http://w3c.github.io/html/document-metadata.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Sections**](http://w3c.github.io/html/sections.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Grouping content**](http://w3c.github.io/html/grouping-content.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Text-level semantics**](http://w3c.github.io/html/textlevel-semantics.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Edits**](http://w3c.github.io/html/edits.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Embedded content**](http://w3c.github.io/html/semantics-embedded-content.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Links**](http://w3c.github.io/html/links.html)
+
+- [HTML5.3 · Editor’s Draft, 9 March 2018 · **Tabular data**](http://w3c.github.io/html/tabular-data.html)
+
+
 - - - - - 
 
 [Clase anterior](https://github.com/profesorfaco/dno037-2018-01) | [Siguiente clase](https://github.com/profesorfaco/dno037-2018-03)
